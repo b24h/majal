@@ -28,7 +28,7 @@ export default function Login() {
         <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-300">
             <div className="bg-white p-8 rounded-2x1 shadow-lg w-full max-w-md">
                 <h1 className="text-2x1 font-bold text-center mb-6 text-gray-800">
-                    Tableau de bord - Connexion
+                    Se Connecter
                 </h1>
                 <form onSubmit={handleSubmit} className="space-y-5">
                     <div>
@@ -51,7 +51,7 @@ export default function Login() {
                         <input 
                             type="password" 
                             value={password}
-                            onChnage={(e) => setPassword(e.target.value)}
+                            onChange={(e) => setPassword(e.target.value)}
                             placeholder="********"
                             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-indigo-400" 
                             required />

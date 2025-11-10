@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "../pages/Login";
-import Dashboard from "../pages/Dashboard";
+import Dashboard from "../pages/DashboardLayout";
 import Cooperatives from "../pages/Cooperatives";
 import Categories from "../pages/Categories";
 import Products from "../pages/Products";
@@ -9,7 +9,7 @@ import Coupons from "../pages/Coupons";
 import Packs from "../pages/Packs";
 import Orders from "../pages/Orders";
 import Settings from "../pages/Settings";
-import Layout from "../pages/Layout";
+import DashboardLayout from "../pages/DashboardLayout";
 
 export default function AppRouter() {
   const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";

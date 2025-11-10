@@ -1,0 +1,6 @@
+export  {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}

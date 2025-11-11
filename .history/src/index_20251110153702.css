@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind somponents;
+@tailwind utilities;
+
+body{
+    @apply font-poppins bg-gray-
+}

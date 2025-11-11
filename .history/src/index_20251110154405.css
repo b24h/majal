@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body{
+    @apply font-poppins bg-gray-50 text-gray-800;
+}

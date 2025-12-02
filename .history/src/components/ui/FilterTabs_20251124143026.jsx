@@ -1,0 +1,19 @@
+import React from "react";
+
+export default function FilterTabs({tabs, active, onChange}){
+    return(
+        <div className="flex gap-3 mb-4">
+            {tabs.map((tab) => (
+                <button
+                    key={tab}
+                    onClick={() => onChange(tab)}
+                    className={`px-3 py-1 rounded-lg border ${
+                        active === tab ? "bg-[#2ba4b9] text-white" : "bg-white"
+                    }`}
+                    >
+                        {tab}
+                    </button>
+            ))}
+        </div>
+    )
+}

@@ -1,0 +1,148 @@
+  const [products, setProducts] = useState([
+    {
+      id: 1,
+      name: "Huile d'Argan",
+      coop: "cooperative1",
+      categ: "categorie1",
+      price: "100",
+      desc: "description...",
+      status: "Disponible",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWCOMXp60DVH7_TUp4gZ6mw8r4yL0kZX9uQ&s",
+      quant: "30",
+    },
+    {
+      id: 2,
+      name: "Dattes",
+      coop: "cooperative2",
+      categ: "categorie2",
+      price: "150",
+      desc: "description...",
+      status: "Stock faible",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsO2xviaBAjVPHe3B0ELWF6qFafg41fEzljA&s",
+      quant: "50",
+    },
+    {
+      id: 3,
+      name: "Amlou de cahahuètes",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+    {
+      id: 3,
+      name: "Amlou d'amendes",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+    {
+      id: 3,
+      name: "Jellaba",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+    {
+      id: 3,
+      name: "Caftan",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+    {
+      id: 3,
+      name: "Derbouka",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+    {
+      id: 3,
+      name: "amlou",
+      coop: "cooperative3",
+      categ: "categorie3",
+      price: "70",
+      desc: "description description description description description description description description description description description",
+      status: "Rupture de stock",
+      img: "https://i1.wp.com/cuisinedefadila.com/wp-content/uploads/2015/08/amlou-fait-maison-12-sur-13.jpg?fit=1020%2C680&ssl=1",
+      quant: "27",
+    },
+  ])
+
+
+[
+    {
+        "id": 5,
+        "name": "Derbouka",
+        "categoryId": 3,
+        "price": 89
+    },
+    {
+        "id": 7,
+        "name": "Savon beldi",
+        "categoryId": 4,
+        "price": 99
+    },
+    {
+        "id": 8,
+        "name": "Hayk",
+        "categoryId": 1,
+        "price": 35
+    },
+    {
+        "id": 9,
+        "name": "Tapis traditionnel",
+        "categoryId": 3,
+        "price": 89
+    },
+    {
+        "id": 10,
+        "name": "Belgha",
+        "categoryId": 1,
+        "price": 99
+    },
+    {
+        "id": 11,
+        "name": "Huile d'olive",
+        "categoryId": 2,
+        "price": 199
+    },
+    {
+        "id": 12,
+        "name": "Miel 500g",
+        "categoryId": 2,
+        "price": 239
+    },
+    {
+        "id": 14,
+        "name": "Savon traditionnel",
+        "categoryId": 4,
+        "price": 35
+    },
+    {
+        "id": 14,
+        "name": "Jellaba",
+        "categoryId": 1,
+        "price": 89
+    }
+]

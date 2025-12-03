@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Huile d'Argan",
+        "cooperativeId": 1,
+        "categoryId": 4,
+        "price": "100",
+        "desc": "description...",
+        "status": "Disponible",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWCOMXp60DVH7_TUp4gZ6mw8r4yL0kZX9uQ&s",
+        "quant": "30"
+    },
+    {
+        "id": 2,
+        "name": "Dattes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": "150",
+        "desc": "description...",
+        "status": "Stock faible",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsO2xviaBAjVPHe3B0ELWF6qFafg41fEzljA&s",
+        "quant": "50"
+    },
+    {
+        "id": 3,
+        "name": "Amlou de cahahuètes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://fresco.ma/wp-content/uploads/2025/11/amlou-kawkaw.jpg",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Amlou d'amendes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://www.maison-guenard.com/modules/ph_simpleblog/covers/97.jpg",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Jellaba",
+        "cooperativeId": 3,
+        "categoryId": 1,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://mudaparis.fr/wp-content/uploads/2025/01/jellaba_djelaba_djellaba_djelaba_ouazania_wazania_chaud_hiver_marocaine_algerienne_tunisienne_main_cousu_epaisse_grise_noire-.001.jpeg",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Caftan",
+        "cooperativeId": 3,
+        "categoryId": 1,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://auroyaumeducaftan.com/cdn/shop/files/image_14402f2c-f51c-4a06-a148-d14a06cd8ec3.jpg?v=1690138619&width=1445",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Derbouka",
+        "coop": "cooperative3",
+        "categoryId": 3,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://www.sonsdelorient.com/5098-large_default/derbouka-confort-warda.jpg",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Savon Beldi",
+        "coop": "cooperative3",
+        "categoryId": 4,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonlamS7FdYoyBsurpk_3ZmdPXbye5sJTLrg&s",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Tapis Berbère",
+        "coop": "cooperative3",
+        "categoryId": 3,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://www.flairrugs.eu/cdn/shop/files/tapis-berbere-veritable.jpg?v=1723464806&width=1080",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Babouches",
+        "coop": "cooperative3",
+        "categoryId": 1,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Babouches_maroc.jpg",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Huile d'Olives",
+        "coop": "cooperative3",
+        "categoryId": 2,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8d_7g99yha3o1kQM_prtaOlqVgSQ5MrjHQw&s",
+        "quant": "27"
+    },
+    {
+        "id": 3,
+        "name": "Miel",
+        "coop": "cooperative3",
+        "categoryId": 2,
+        "price": "70",
+        "desc": "description description description description description description description description description description description",
+        "status": "Rupture de stock",
+        "img": "https://teashop.com/cdn/shop/articles/propiedades-de-la-miel.jpg?v=1727705721&width=2048",
+        "quant": "27"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Bassma Housbane",
+      "address": "Rabat",
+      "phone": "0123456789",
+      "status": "En attente"
+    },
+    {
+      "id": 2,
+      "name": "Niama Jerroudi",
+      "address": "Berkane",
+      "phone": "0987654321",
+      "status": "Confirmée"
+    },
+    {
+      "id": 3,
+      "name": "Asmae El-Hadri",
+      "address": "Casablanca",
+      "phone": "0192837465",
+      "status": "Rejetée"
+    },
+    {
+      "id": 4,
+      "name": "Marouane El-Kadi",
+      "address": "Marrakech",
+      "phone": "0564738291",
+      "status": "Livrée"
+    },
+    {
+      "id": 5,
+      "name": "Mohammed Hamdaoui",
+      "address": "Fes",
+      "phone": "0",
+      "status": "En attente"
+    },
+    {
+      "id": 6,
+      "name": "Hakim Ziyech",
+      "address": "Laayoune",
+      "phone": "0564738291",
+      "status": "En attente"
+    },
+    {
+      "id": 7,
+      "name": "Donald J. Trump",
+      "address": "Tanger",
+      "phone": "0564738291",
+      "status": "En attente"
+    }
+  ]

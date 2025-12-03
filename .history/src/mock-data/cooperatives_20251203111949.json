@@ -1,0 +1,23 @@
+  const [cooperatives, setCooperatives] = useState([
+    {
+      "id": 1,
+      "name": "Coopérative Sidi Bouzid",
+      "address": "Adresse",
+      "date": "2024-05-12",
+      "productCount": 5
+    },
+    {
+      "id": 2,
+      "name": "Open Sulaymaniyah",
+      "address": "Adresse",
+      "date": "2024-08-02",
+      "productCount": 8
+    },
+    {
+      id: 3,
+      name: "Coopérative Agricole Zegzal",
+      address: "Adresse",
+      date: "2024-09-22",
+      productCount: 3
+    },
+  ]);

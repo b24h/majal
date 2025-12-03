@@ -1,0 +1,51 @@
+const [orders, setOrders] = useState([
+    {
+      id: 1,
+      name: "client1",
+      address: "rabat",
+      phone: "0123456789",
+      status: "En attente"
+    },
+    {
+      id: 2,
+      name: "client2",
+      address: "berkane",
+      phone: "0987654321",
+      status: "Confirmée"
+    },
+    {
+      id: 3,
+      name: "client3",
+      address: "casablanca",
+      phone: "0192837465",
+      status: "Rejetée"
+    },
+    {
+      id: 4,
+      name: "client4",
+      address: "marrakesh",
+      phone: "0564738291",
+      status: "Livrée"
+    },
+    {
+      id: 5,
+      "name": "client5",
+      "address": "fes",
+      "phone": "0564738291",
+      "status": "En attente"
+    },
+    {
+      "id": 6,
+      "name": "client6",
+      "address": "laayoune",
+      "phone": "0564738291",
+      "status": "En attente"
+    },
+    {
+      "id": 7,
+      "name": "client7",
+      "address": "tanger",
+      "phone": "0564738291",
+      "status": "En attente"
+    }
+  ]

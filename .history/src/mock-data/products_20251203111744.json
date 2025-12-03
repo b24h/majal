@@ -1,0 +1,17 @@
+[
+    {"id": 1, "name": "Amlou d'amendes", "categoryId": 2,  "price": 129},
+    {"id": 2, "name": "Amlou de cahahuètes", "categoryId": 2,  "price": 249},
+    {"id": 3, "name": "Jellaba", "categoryId": 1,  "price": 49},
+    {"id": 4, "name": "Caftan", "categoryId": 1,  "price": 129},
+    {"id": 5, "name": "Derbouka", "categoryId": 3,  "price": 129},
+    {"id": 6, "name": "Huile d'argan", "categoryId": 4,  "price": 129},
+    {"id": 7, "name": "Savon beldi", "categoryId": 4,  "price": 129},
+    {"id": 8, "name": "Hayk", "categoryId": 1,  "price": 129},
+    {"id": 9, "name": "Tapis traditionnel", "categoryId": 3,  "price": 129},
+    {"id": 10, "name": "Belgha", "categoryId": 1,  "price": 129},
+    {"id": 11, "name": "Huile d'olive", "categoryId": 2,  "price": 129},
+    {"id": 12, "name": "Miel 500g", "categoryId": 2, "price": 129},
+    {"id": 13, "name": "Huile d'argan 250ml", "categoryId": 4, "price": 99},
+    {"id": 14, "name": "Savon traditionnel", "categoryId": 4, "price": 35},
+    {"id": 14, "name": "Jellaba", "categoryId": 1, "price": 89}
+]

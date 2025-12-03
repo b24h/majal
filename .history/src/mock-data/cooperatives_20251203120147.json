@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Coopérative Argan",
+      "address": "Adresse",
+      "date": "2024-05-12",
+      "productCount": 5
+    },
+    {
+      "id": 2,
+      "name": "Coopérative Artisanat",
+      "address": "Adresse",
+      "date": "2024-08-02",
+      "productCount": 8
+    },
+    {
+      "id": 3,
+      "name": "Coopérative Art et Culture",
+      "address": "Adresse",
+      "date": "2024-09-22",
+      "productCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Coopérative Denrées Alimentaires",
+      "address": "Adresse",
+      "date": "2024-09-22",
+      "productCount": 3
+    },
+    
+  ]

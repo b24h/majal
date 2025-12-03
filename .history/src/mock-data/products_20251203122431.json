@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Huile d'Argan",
+        "cooperativeId": 1,
+        "categoryId": 4,
+        "price": 100,
+        "desc": "Huile d'Argan marocaine...",
+        "status": "Disponible",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWCOMXp60DVH7_TUp4gZ6mw8r4yL0kZX9uQ&s",
+        "quant": 30
+    },
+    {
+        "id": 2,
+        "name": "Dattes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": 150,
+        "desc": "Dattes marocaines...",
+        "status": "Disponible",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsO2xviaBAjVPHe3B0ELWF6qFafg41fEzljA&s",
+        "quant": 50
+    },
+    {
+        "id": 3,
+        "name": "Amlou de cahahuètes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": 249,
+        "desc": "Amlou de cahahuètes marocain...",
+        "status": "Disponible",
+        "img": "https://fresco.ma/wp-content/uploads/2025/11/amlou-kawkaw.jpg",
+        "quant": 27
+    },
+    {
+        "id": 4,
+        "name": "Amlou d'amendes",
+        "cooperativeId": 4,
+        "categoryId": 2,
+        "price": 249,
+        "desc": "Amlou d'amendes marocain...",
+        "status": "Disponible",
+        "img": "https://www.maison-guenard.com/modules/ph_simpleblog/covers/97.jpg",
+        "quant": 27
+    },
+    {
+        "id": 5,
+        "name": "Jellaba",
+        "cooperativeId": 3,
+        "categoryId": 1,
+        "price": 35,
+        "desc": "Jellaba marocaine...",
+        "status": "Disponible",
+        "img": "https://mudaparis.fr/wp-content/uploads/2025/01/jellaba_djelaba_djellaba_djelaba_ouazania_wazania_chaud_hiver_marocaine_algerienne_tunisienne_main_cousu_epaisse_grise_noire-.001.jpeg",
+        "quant": "80"
+    },
+    {
+        "id": 6,
+        "name": "Caftan",
+        "cooperativeId": 3,
+        "categoryId": 1,
+        "price": 120,
+        "desc": "Caftan marocain...",
+        "status": "Disponible",
+        "img": "https://auroyaumeducaftan.com/cdn/shop/files/image_14402f2c-f51c-4a06-a148-d14a06cd8ec3.jpg?v=1690138619&width=1445",
+        "quant": 40
+    },
+    {
+        "id": 7,
+        "name": "Derbouka",
+        "cooperativeId": 3,
+        "categoryId": 3,
+        "price": 79,
+        "desc": "Derbouka marocaine...",
+        "status": "Disponible",
+        "img": "https://www.sonsdelorient.com/5098-large_default/derbouka-confort-warda.jpg",
+        "quant": 30
+    },
+    {
+        "id": 8,
+        "name": "Savon Beldi",
+        "cooperativeId": 2,
+        "categoryId": 4,
+        "price": 10,
+        "desc": "Savon Beldi marocain...",
+        "status": "Stock faible",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSonlamS7FdYoyBsurpk_3ZmdPXbye5sJTLrg&s",
+        "quant": 20
+    },
+    {
+        "id": 9,
+        "name": "Tapis Berbère",
+        "cooperativeId": 2,
+        "categoryId": 3,
+        "price": "70",
+        "desc": "Tapis Berbère marocain...",
+        "status": "Disponible",
+        "img": "https://www.flairrugs.eu/cdn/shop/files/tapis-berbere-veritable.jpg?v=1723464806&width=1080",
+        "quant": "40"
+    },
+    {
+        "id": 10,
+        "name": "Babouches",
+        "cooperativeId": 2,
+        "categoryId": 1,
+        "price": "70",
+        "desc": "Babouches marocaines...",
+        "status": "Stock faible",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Babouches_maroc.jpg",
+        "quant": "10"
+    },
+    {
+        "id": 11,
+        "name": "Huile d'Olives",
+        "cooperativeId": 5,
+        "categoryId": 2,
+        "price": "70",
+        "desc": "Huile d'Olives marocaine...",
+        "status": "Rupture de stock",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8d_7g99yha3o1kQM_prtaOlqVgSQ5MrjHQw&s",
+        "quant": "0"
+    },
+    {
+        "id": 12,
+        "name": "Miel",
+        "cooperativeId": 5,
+        "categoryId": 2,
+        "price": "70",
+        "desc": "Miel marocain...",
+        "status": "Stock faible",
+        "img": "https://teashop.com/cdn/shop/articles/propiedades-de-la-miel.jpg?v=1727705721&width=2048",
+        "quant": "5"
+    }
+]

@@ -1,0 +1,13 @@
+import React from "react";
+import { Trash2 } from "lucide-react";
+
+export default function DeleteButton({onClick}){
+    return(
+        <button
+            onClick={onClick}
+            className="nsition"
+        >
+            <Trash2 size={20}/>
+        </button>
+    )
+}

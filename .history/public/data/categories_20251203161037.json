@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Vêtement"
+    },
+    {
+        "id": 2,
+        "name": "Nourriture"
+    },
+    {
+        "id": 3,
+        "name": "Décoration"
+    },
+    {
+        "id": 4,
+        "name": "Soin et beauté"
+    }
+  ]

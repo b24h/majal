@@ -1,0 +1,1 @@
+Uncaught SyntaxError: The requested module '/src/api/productsService.js' does not provide an export named 'default'

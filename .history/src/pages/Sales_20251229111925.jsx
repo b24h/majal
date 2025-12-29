@@ -75,29 +75,10 @@ export default function Sales() {
         <h2 className="text-lg font-semibold mb-4">Répartition des ventes</h2>
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
-            <Pie data={categorySales} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={100} label>
-              {categorySales.map((_, index) =>(
-                <Cell key={index} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Pie>
+            <Pie data={categorySales} dataKey="value" nameKey="name" cx="50%" ></Pie>
           </PieChart>
         </ResponsiveContainer>
       </div>
     </div>
   );
-}
-
-function StatCard({title, value, positive}){
-  return(
-    <div className="bg-white p-5 rounded-xl shadow border">
-      <p className="text-sm text-gray-500">{title}</p>
-      <p
-        className={`text-2xl font-bold mt-2 ${
-          positive ? "text-green-600" : "text-gray-800"
-        }`}
-      >
-        {value}
-      </p>
-    </div>
-  )
 }

@@ -91,13 +91,7 @@ function StatCard({title, value, positive}){
   return(
     <div className="bg-white p-5 rounded-xl shadow border">
       <p className="text-sm text-gray-500">{title}</p>
-      <p
-        className={`text-2xl font-bold mt-2 ${
-          positive ? "text-green-600" : "text-gray-800"
-        }`}
-      >
-        {value}
-      </p>
+      <p>{</p>
     </div>
   )
 }

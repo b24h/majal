@@ -39,15 +39,15 @@ export default function Sales() {
 
       <div className="grid grid-cols-1 sm: grid-cols-2 lg:grid-cols-4 gap-6">
         <StatCard title="Chiffre d'affaires" value={`${stats.totalRevenue} MAD`}/>
-        <StatCard title="Ventes ce mois" value={`${stats.currentMonth} MAD`}/>
-        <StatCard title="Croissance" value={`+${stats.growth}%`} positive/>
-        <StatCard title="Commandes" value={stats.orders}/>
+        <StatCard title="Ventes ce mois" value={`${stats.} MAD`}/>
+        <StatCard title="Croissance" value={`${} MAD`}/>
+        <StatCard title="Commandes" value={`${} MAD`}/>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
         <div className="bg-white p-6 rounded-xl shadow-md border">
-          <h2 className="text-lg font-semibold mb-4">Evolution mensuelle</h2>
-          <ResponsiveContainer width="100%" height={300}>
+          <h2 className="text-lg font-semibold mb-4">Ventes par mois</h2>
+          <ResponsiveContainer width="100%" height={280}>
             <LineChart data={monthlySales}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="month" />
@@ -59,45 +59,6 @@ export default function Sales() {
         </div>
       </div>
 
-      <div className="bg-white p-6 rounded-xl shadow-md border">
-        <h2 className="text-lg font-semibold mb-4">Ventes par catégorie</h2>
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={categorySales}>
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip />
-            <Bar dataKey="value" fill="#0e7490" radius={[8, 8, 0, 0]}></Bar>
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div className="bg-white p-6 rounded-xl shadow border max-w-2xl">
-        <h2 className="text-lg font-semibold mb-4">Répartition des ventes</h2>
-        <ResponsiveContainer width="100%" height={300}>
-          <PieChart>
-            <Pie data={categorySales} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={100} label>
-              {categorySales.map((_, index) =>(
-                <Cell key={index} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Pie>
-          </PieChart>
-        </ResponsiveContainer>
-      </div>
     </div>
   );
-}
-
-function StatCard({title, value, positive}){
-  return(
-    <div className="bg-white p-5 rounded-xl shadow border">
-      <p className="text-sm text-gray-500">{title}</p>
-      <p
-        className={`text-2xl font-bold mt-2 ${
-          positive ? "text-green-600" : "text-gray-800"
-        }`}
-      >
-        {value}
-      </p>
-    </div>
-  )
 }

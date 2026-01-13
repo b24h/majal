@@ -53,7 +53,7 @@ export default function Products() {
           ]
         );
 
-        setProducts(productsRes.data);
+        setProducts(productsRes.data.result);
         setCooperatives(cooperativesRes.data);
         setCategories(categoriesRes.data);
       } catch (err) {
@@ -163,7 +163,7 @@ export default function Products() {
         <div className="flex items-center gap-3">
           <SearchBar
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Rechercher..."
+            placeholder="Rechercher un produit..."
           />
           <AddButton onClick={openAddModal}>+ Ajouter un produit</AddButton>
         </div>

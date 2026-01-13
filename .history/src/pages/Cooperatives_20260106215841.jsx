@@ -6,15 +6,6 @@ import EditButton from "../components/ui/EditButton";
 import cooperativesService from "../api/cooperativesService";
 import productsService from "../api/productsService";
 
-  const toBase64 = (file) =>
-    new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = () =>
-        resolve(reader.result.split(",")[1]);
-      reader.onerror = reject;
-    });
-
 export default function Cooperatives() {
   const [cooperatives, setCooperatives] = useState([]);
   const [products, setProducts] = useState([]);

@@ -6,15 +6,6 @@ import EditButton from "../components/ui/EditButton";
 import cooperativesService from "../api/cooperativesService";
 import productsService from "../api/productsService";
 
-  const toBase64 = (file) =>
-    new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = () =>
-        resolve(reader.result.split(",")[1]);
-      reader.onerror = reject;
-    });
-
 export default function Cooperatives() {
   const [cooperatives, setCooperatives] = useState([]);
   const [products, setProducts] = useState([]);
@@ -124,7 +115,7 @@ export default function Cooperatives() {
         <div className="flex items-center gap-3">
           <SearchBar
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Rechercher..."
+            placeholder="Rechercher"
           />
 
           <AddButton

@@ -63,7 +63,7 @@ export default function Revenues() {
 
   return (
     <div className="p-6 font-poppins">
-      <h1 className="text-2xl font-semibold mb-6">Revenus</h1>
+      <h1 className="text-2xl font-semibold mb-6">Revenus & Commandes</h1>
 
       {/* KPIs */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">

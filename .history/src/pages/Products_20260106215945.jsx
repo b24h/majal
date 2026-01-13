@@ -53,7 +53,7 @@ export default function Products() {
           ]
         );
 
-        setProducts(productsRes.data);
+        setProducts(productsRes.data.result);
         setCooperatives(cooperativesRes.data);
         setCategories(categoriesRes.data);
       } catch (err) {

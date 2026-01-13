@@ -175,10 +175,10 @@ export default function Categories() {
             >
               <div>
                 {cat.icon && (
-                  <img src={`data:image/jpeg;base64,${cat.icon}`} alt="icon" className="w-10 h-10 mb-3 object-contain" />
+                  <img src={`data:image/jpeg;base64`} alt="icon" className="w-10 h-10 mb-3 object-contain" />
                 )}
                 {cat.photo && (
-                  <img src={`data:image/jpeg;base64,${cat.photo}`} alt="photo" className="w-full h-32 object-cover rounded-xl mb-3" />
+                  <img src={``} alt="photo" className="w-full h-32 object-cover rounded-xl mb-3" />
                 )}
                 <h2 className="text-lg font-semibold mb-2">{cat.name}</h2>
                 {cat.description && (
